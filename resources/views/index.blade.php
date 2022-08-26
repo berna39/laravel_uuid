@@ -14,7 +14,7 @@
             @csrf
             <div class="form-group">
                 <label for="amount">Amount</label>
-                <input type="number" value="" placeholder="Amount" name="amount" id="amount" class="form-control"> 
+                <input type="number" value="" placeholder="Amount" min="0" step="0.0001" name="amount" id="amount" class="form-control"> 
             </div>
             <div class="form-group">
                 <label for="tag">Tag</label>
